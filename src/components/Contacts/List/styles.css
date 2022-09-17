@@ -1,0 +1,43 @@
+.filterr{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.2rem;
+}
+
+.filter{
+    background-color:rgb(126, 109, 109);
+    border-bottom: 2px solid gray;
+    padding-bottom: 2vh;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+    width: 100%;
+}
+ul{
+    width: 40vh;
+}
+#li{
+    text-align: center;
+    list-style-type: none;
+    border: 1px solid gray;
+    min-width: 100%;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 2vh;
+    color: rgb(187, 181, 178);
+    border-radius: 10px;
+}
+
+.left{
+    padding-left: 0;
+
+}
+.right{
+    padding-left: 10%;
+}

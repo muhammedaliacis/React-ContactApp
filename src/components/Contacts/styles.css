@@ -1,0 +1,9 @@
+#container{
+    background-color: rgb(59, 53, 53);
+    min-width: 70vh;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    border-radius: 20px;
+
+}
