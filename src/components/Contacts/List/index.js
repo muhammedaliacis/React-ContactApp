@@ -7,8 +7,8 @@ function List({contact}) {
         setName(e.target.value);
     }
     const searchContact = () => {
-        const filtered = contact.filter((item) => {
-            if (item.fulname.toLowerCase().indexOf(name.toLowerCase()) !== -1){
+        const filtered = contact.filter((item) => { 
+            if (item.fulname?.toLowerCase().indexOf(name?.toLowerCase()) !== -1){
                 return (item);
             }
             else {
