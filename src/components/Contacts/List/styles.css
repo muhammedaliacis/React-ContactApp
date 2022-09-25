@@ -15,11 +15,13 @@ h1{
     width: 100%;
 }
 ul{
-    width: 60vh;
+    width: 50vh;
+
 
 }
 #li{
     background-image: linear-gradient(to right top, #646363, #666464, #686565, #6a6667, #6c6768, #6e696a, #716c6c, #736e6e, #767171, #7a7575, #7d7878, #817c7c);
+
 
     list-style-type: none;
     font-family: 'Times New Roman', Times, serif;
@@ -51,3 +53,28 @@ ul{
     position: absolute;
     right: 0;
 }
+
+@media only screen and (max-width: 800px) {
+    
+h1{
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8, -3px 2px 2px rgba(13,11,12,0.95);
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+
+    ul{
+        width: 25vh;
+    
+    
+    }
+    #li{
+        width: 25vh;
+        font-size: 13px;
+    right: 8%;
+
+    }
+
+
+  }

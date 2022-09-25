@@ -1,5 +1,6 @@
 .form{
     margin-top: 5vh;
+    max-width: 50%;
 
 }
 
@@ -14,6 +15,8 @@
     width: 80%;
     appearance: none;
     transition: border 0.15s ease 0s;
+    max-width: 50%;
+
 
 
 }
@@ -45,4 +48,42 @@ button:hover{
     transition: 0.5s;
     scale: 1.1;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+@media only screen and (max-width: 800px) {
+
+    .form{
+        margin-top: 0;
+        max-width: 50%;
+    
+    }
+    
+    #input{
+        padding: 3px 8px;
+        background: rgb(31, 32, 35);
+        border: 1px solid rgb(60, 63, 68);
+        border-radius: 4px;
+        font-size: 11px;
+        color: rgb(247, 248, 248);
+        height: 20px;
+        width: 70%;
+        appearance: none;
+        transition: border 0.15s ease 0s;
+        max-width: 50%;
+    
+    
+    
+    }
+
+    button{
+        font-size: 12px;
+        width: 70px !important;
+        padding: 3px 7px !important;
+        border: 1px solid transparent;
+        min-width: 30px;
+        margin: 2vh;
+        cursor: pointer;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    
+    }
 }
