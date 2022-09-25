@@ -2,5 +2,10 @@
     background-image: linear-gradient(to right top, #212020, #262525, #2c2a2a, #313030, #373535, #3b3939, #403d3d, #444141, #484545, #4b4848, #4f4c4c, #535050);    width: 70vh;
     min-width: 70vh;
     border-radius: 20px;
-
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
 }
